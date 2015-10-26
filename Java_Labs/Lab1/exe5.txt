@@ -1,3 +1,0 @@
-Ex 5 Questions
-1. There are two classes in the program; class Tri and class Triangle.
-2. The entry point is in the main (public static void main(String[] args)), This is where the program starts.
