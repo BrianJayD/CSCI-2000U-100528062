@@ -1,3 +1,5 @@
+#Brian Jay Domingo 100528062
+
 def has_no_e(search):
 	for i in search:
 		pass
