@@ -1,0 +1,58 @@
+echo hello world: Prints "hello world".
+echo {con,pre}{sent,fer}{s,ed}: Prints "consents consented confers confered presents presented prefers prefered". 
+date: Prints the day of the week, month, date number, time with time zone and year. (Mon Sep 28 09:47:28 EDT 2015)
+whoami: Prints the username. 
+cal 2000: Prints the calendar for the following year. 
+ 2000
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5            1  2  3  4  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   5  6  7  8  9 10 11  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  12 13 14 15 16 17 18  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  19 20 21 22 23 24 25  
+23 24 25 26 27 28 29  27 28 29              26 27 28 29 30 31     
+30 31                                                             
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1      1  2  3  4  5  6               1  2  3  
+ 2  3  4  5  6  7  8   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  28 29 30 31           25 26 27 28 29 30     
+30                                                                
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5                  1  2  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+23 24 25 26 27 28 29  27 28 29 30 31        24 25 26 27 28 29 30  
+30 31                                                             
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31    
+
+cal 9 1752: Prints the month in the given year. 9 for September and 1752 for the year. Skips dates 3 to 13. 
+September 1752     
+Su Mo Tu We Th Fr Sa  
+       1  2 14 15 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28 29 30  
+
+bc -l: Prints the copyright information. 
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+
+echo 5+4 | bc -l: Prints 5+4 as 9. Without "bc -l", "echo 5+4" alone would print "5+4". The command "| bc -l" reads "5+4" as a math equation and prints out the sum.
+
+  
