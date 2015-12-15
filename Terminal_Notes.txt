@@ -1,0 +1,46 @@
+ls
+cd
+mv "file" "dirctory"
+rm "file"
+cp "file" "directory"
+mkdir - creates directory
+rmdir - deletes directory
+touch - creates new file
+pwd - print working directory
+wc - word count. prints lines words letters
+
+-F: flag
+-s: size of file
+-h: human friendly output??? in bytes?
+-a: all files, directoroes and those beginning with a '.'
+-l: "                    " in log format
+-t: "                    " in order by time
+***Can be combined ex. -al -lt -alt .....
+
+'*' - wildcard
+-r: recurrsive. Used to delete all files in a directory.
+
+echo "text" - prints out the text
+echo "text" > Hello.txt - prints text into file
+
+cat "file" - outputs the file contents
+cat "file1" > "file2" - overwrites the contents in file 2 with the output of file1
+cat "file1" >> "file2" - appends the output of file1 without overwriting the contents in file2
+cat < "file" - takes the input on the right and outputs it to the left
+cat "file" | wc - outputs the word count of file in lines words and letters
+cat "file1" | wc | cat > "file2" - outputs the word count of file1 and writes it to file2
+
+sort "file" - sorts alphabetically
+cat "file1" | sort > "file2" - take the output of file1, sorts file1 then writes it to file2
+uniq "file" - outputs unique inputs
+sort "file" | uniq - sorts file then outputs uniq inputs
+grep "word" "file" - finds inputs that include the word in the file
+grep -i .... - allows the grep command to be case sensitive
+grep -R .... - searches the directories files for the word and outputs the words
+grep -l .... - searches the directories files for the word and outputs the file
+grep -w .... - searches for the whole word
+grep -n .... - searches with line numbers
+grep -v .... - searches for non-matches
+
+
+
